@@ -16,6 +16,8 @@ def main():
     
     st.write(f'El valor del slider es {sliders}')
     
+    st.balloons()
+    
     
     
 main()
