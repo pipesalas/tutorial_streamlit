@@ -1,14 +1,20 @@
 import streamlit as st
-import time
+
 
 def main():
-    st.write('wena cabros jajajaja')
+
+    st.write('holaaaaaaajajajaja')
+    st.title('Titulo')
     
-    slider = st.slider('texto slider', 0, 10, 2)
+    st.sidebar.write('miremos el sidebar')
     
-    st.write(f'Este es el valor del slider {slider}')
+    boton = st.button('label')
     
-    st.sidebar.title('jajaja')
+    st.write(f'El botón vale {boton}')
+    
+    sliders = st.slider('objeto slider', 0, 10)
+    
+    st.write(f'El valor del slider es {sliders}')
     
     
     
